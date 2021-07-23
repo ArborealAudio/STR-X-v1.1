@@ -71,8 +71,6 @@ public:
         auto buttonArea = button.getLocalBounds().toFloat();
         g.setColour(Colours::transparentBlack);
         g.fillRoundedRectangle(buttonArea, 3.f);
-        //g.setColour(Colours::honeydew);
-        //g.drawFittedText(button.getTooltip(), 0, 440, 775, 65, Justification::centredLeft, 3, 0.f);
 
         if (button.isMouseOver()) {
             g.setColour(Colour(0xff374037));
